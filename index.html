@@ -54,6 +54,12 @@ a:active {
    display: inline-block;
    padding: 13px;
    margin-right:auto;
+}
+li {
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+}
+.botnav a {
    font-size: 14px;
    font-family: Arial, sans-serif;
 }
@@ -73,9 +79,20 @@ a:active {
    color: #FFF
 }
 .midButtons {
-         position: absolute;
-         top: 41%;
-         left: 41%;
+   position: absolute;
+   top: 41%;
+   left: 41%;
+}
+.botnav {
+   background-color: rgb(231, 231, 231);
+   overflow:hidden;
+   position:fixed;
+   bottom: 0;
+   width:100%;
+}
+.botnav a {
+   display: inline-block;
+   margin: 0 21px;
 }
    </style>
    </head>
@@ -93,7 +110,11 @@ a:active {
          <li style="float:right"><a class="rightnav" href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
          <li style="float:right"><a class="rightnav" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
       </ul>
-      <div class="midButtons">
+      <div class="botnav">
+         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGlNeJgMbvAhXYHTQIHeDhDUcQkdQCCA4&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3XLzhicA5ZZW0afDbW0l2T">Advertising</a>
+         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjL7p-Yg8bvAhWNJzQIHViuDRcQktQCCA8&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K0">Business</a>
+      </div>
+         <div class="midButtons">
       <input class="gs" value="Google Search" name="gss" type="submit">
       <input class="ifl" value="I'm Feeling Lucky" name="imll" type="submit"
       </div>
