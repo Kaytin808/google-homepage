@@ -1,0 +1,118 @@
+      .box {
+         position: absolute;
+         top: 25%;
+         left: 40%;
+         margin-left: -(X/2)px;
+         margin-top: -(Y/2)px;
+      }
+      .bar {
+         width: 100%;
+      }
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+}
+      li {
+         display: inline;
+      }
+      a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.topnav {
+   display: inline-block;
+   padding: 13px;
+   margin: 0 -10px;
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+}
+.rightnav {
+   display: inline-block;
+   padding: 13px;
+   margin-right:auto;
+}
+li {
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+}
+.botnav a {
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+}
+#rightnavSign{
+   cursor: pointer;
+}
+#rightnavSign {
+   display: inline-block;
+   padding: 13px;
+   margin-right:auto;
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+   background: #1a73e8;
+   border-radius: 4px;
+}
+#rightnavSign {
+   color: #FFF
+}
+.midButtons {
+   position: absolute;
+   top: 41%;
+   left: 41%;
+}
+.botnav {
+   background-color: rgb(236, 236, 236);
+   overflow:hidden;
+   position:fixed;
+   bottom: 0;
+   width:100%;
+   height: 50px;
+}
+.botnav a {
+   display: inline-block;
+   margin: 0 5px;
+   color: rgb(87, 87, 87);
+   text-align: center;
+   padding: 15px;
+}
+.leaftea {
+   height: 14px;
+   margin-right: 6px;
+}
+.carbon {
+   display: block;
+   height: 50px;
+   overflow:hidden;
+   position:fixed;
+   bottom: 0;
+   width:100%;
+   text-align: center;
+}
+.carbon a {
+   display: inline-block;
+   margin: 0 5px;
+   color: rgb(87, 87, 87);
+   text-align: center;
+   padding: 15px;
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+}
